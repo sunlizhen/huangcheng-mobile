@@ -1,0 +1,333 @@
+html{
+	font-size: 20px;
+}
+/*中间页面*/
+.swiper-container{
+	width: 100%;
+	height: 100%;
+}
+.swiper-container{
+	background: url(../img/indexBg.png) center center;
+	background-size: cover;
+	color: #fff;
+}
+
+.swiper-container .swiper-slide p{
+	font-size: 2rem;
+}
+
+.swiper-container .swiper-slide section .bottom{
+	position: absolute;
+	bottom: 0.5rem;
+}
+.swiper-container .swiper-slide section:nth-child(3){
+	width:100%;
+	text-align: center;
+}
+.swiper-container .swiper-slide section:nth-child(3) p{
+	width: 100%;
+	text-align: center;
+	font-size: 0.7rem;
+}
+.swiper-container .swiper-slide section .jingcai{
+	position: relative;
+	display: inline-block;
+	width: 10rem;
+	text-align: center;
+	font-size: 1.1rem;
+	height: 20px;
+	top:43%;
+	margin-top: -10px;
+	left:50%;
+	margin-left:-5rem;
+}
+.Index_logo{
+	position: absolute;
+	bottom: 2rem;
+	width: 9rem;
+	left:50%;
+	margin-left:-4rem;
+}
+.Index_logo .logo{
+	background: url(../img/indexLogo.png) center center no-repeat;
+	background-size: cover;
+	width: 3.5rem;
+	height: 2.75rem;
+	display: inline-block;
+}
+.Index_logo .wenzi{
+	background: url(../img/indexWenzi.png) center center no-repeat;
+	background-size: contain;
+	width: 4.5rem;
+    height: 2.75rem;
+	display: inline-block;
+}
+.line{
+	display: inline-block;
+	width: 2px;
+	background: #fff;
+	height: 2.7rem;
+}
+/*左右按钮*/
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+	background: url(../img/arrar.png) left center no-repeat;
+	background-size: cover;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	background: url(../img/arrar.png) right center no-repeat;
+	background-size: cover;
+}
+.swiper-button-next, .swiper-button-prev{
+	width: 17px;
+    height: 25px;
+}
+
+/*右边第一页*/
+.con_wraper{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+.con_wrap_inner{
+	width: 100%;
+}
+/*焦点图*/
+li{
+	list-style: none;
+}
+li img{
+	display: block;
+	margin: 0 auto;
+}
+#wrap{
+	width: 80%;
+	min-width: 300px;
+	margin: 10px auto 80px;
+	background: #fefefe;
+}
+.hiSlider{
+	overflow: hidden;
+	width: 500px;
+	background: #eee;
+}
+.hiSlider-item{
+	float: left;
+}
+.hiSlider3 img{
+	width: 100%;
+}
+.hiSlider-wrap{
+	position: relative;
+}
+.hiSlider-pages{
+	position: absolute;
+	bottom: 0.5rem;
+	left:50%;
+	margin-left:-7.5rem;
+}
+.hiSlider-pages a{
+	height: 0.25rem;
+    width: 5rem;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -100px;
+    font-size: 0;
+    border-radius: 5%;
+    background: #ddd;
+}
+.hiSlider-pages a.active{
+	background: #b2b2b2;
+}
+.con_wrap_inner .line{
+	position: absolute;
+	width: 100%;
+	height: 0.1rem;
+	background: #dddddd;
+	left: 0;
+}
+.con_wrap_inner .line2{
+	position: absolute;
+    content: "";
+    left: 0;
+    width: 0%;
+    height: 0.1rem;
+    background: #f9b113;
+}
+.con_wrap_bottom{
+	width: 100%;
+	position: relative;
+}
+.section1{
+	width: 97%;
+	height: 8rem;
+	border-bottom: 1px solid #9f9f9f;
+	padding: 0.4rem 0 0.4rem 0.75rem;
+	position: relative;
+	bottom: -400px;
+}
+.section_left,.section_right{
+	float:left;
+}
+.section_left{
+	width: 90%;
+	height: 100%;
+}
+.section_right{
+	width: 9%;
+	height: 100%;
+	border-left:1px solid #9f9f9f;
+}
+.section_left dl{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	display: -webkit-flex;
+}
+.section_left dl dt{
+	width: 40%;
+	display: flex;
+	display: -webkit-flex;
+	align-items:center;
+}
+.section_left dl dd{
+	width: 60%;
+	padding-top: 0.8rem;
+	padding-left: 10px;
+}
+.section_left dl img{
+	width: 100%;
+}
+.con_wrap_bottom .section_left dl dd div:nth-child(1){
+	padding-top: 0.3rem;
+}
+.con_wrap_bottom .section_left dl dd div:nth-child(3){
+	padding-top: 0.3rem;
+}
+.con_wrap_bottom .section_left dl dd div:nth-child(3) span{
+	color:#f9b100;
+	font-size: 0.4rem;
+	-webkit-transform:scale(0.8);
+	border-right:1px solid #ccc;
+	padding-right: 0.3rem;
+	margin-right: 0.3rem;
+}
+.con_wrap_bottom .section_left dl dd .top{
+	font-size: 1rem;
+}
+.con_wrap_bottom .section_left dl dd .top{
+	font-size: 0.9rem;
+	-webkit-transform:scale(0.8);
+	color: #000;
+	line-height: 16px;
+}
+
+.con_wrap_bottom .section_left dl dd span{
+	color: #666464;
+	font-size: 0.2rem;
+	-webkit-transform:scale(0.8);
+}
+.section_right {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center
+}
+.section_right .Give_zan,.section_right .Give_xin{
+	width: 1.15rem;
+	height: 1.15rem;
+	display: block;
+	background: url(../img/zan.png) center top no-repeat;
+	background-size: cover;
+}
+.section_right .Give_xin{
+	background: url(../img/zan.png) center -21px no-repeat;
+	background-size: cover;
+	margin-top: 2.9rem;
+}
+/*第一页样式*/
+.slide_one{
+	width: 100%;
+	height: 100%;
+	background: #f5b040;
+}
+.slide_one_tu,.slide_one_tu1{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction:row;
+	justify-content:center
+}
+.slide_one_tu img{
+	width: 50%;
+	height: 50%;
+}
+.slide_one_tu1 img{
+	width: 50%;
+	height: 50%;
+}
+
+.slide_bottom div{
+	margin: 0.75rem auto 0.75rem;
+	padding-left:0.5rem;
+}
+.slide_bottom .img{
+	width: 96%;
+	margin: 0 auto;
+    display: block;
+}
+.slide_bottom span{
+	display: block;
+	font-size: 0.8rem;
+}
+.slide_btn_top{
+	width:5.5rem;
+	border-left:2px solid #fff;
+}
+.slide_btn_top span:nth-child(2){
+	font-size: 0.5rem;
+	margin-top: 0.25rem;
+}
+/*加载不停的旋转*/
+.load_img{
+	transform: rotate(0deg);
+    animation: rot 1s linear infinite;
+}
+@keyframes rot{
+    form{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
+/*首页title样式*/
+.title_top p:nth-child(1){
+	margin-top: 3rem;
+	margin-bottom: 0.5rem;
+}
+.title_top p:nth-child(2){
+	display: none;
+}
+.title_top p{
+	display: inline-block;
+	padding-left: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
